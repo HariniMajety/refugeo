@@ -91,6 +91,14 @@
                                     <segue destination="aZK-Wa-lsR" kind="showDetail" id="SQE-KC-xub"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4L5-eo-UDn">
+                                <rect key="frame" x="177" y="778" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Glossary"/>
+                                <connections>
+                                    <segue destination="DYb-zE-Meg" kind="show" id="Cpl-YU-aep"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cti-0Y-BmN"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -139,6 +147,14 @@
                                 <state key="normal" title="&lt;- Map"/>
                                 <connections>
                                     <segue destination="aZK-Wa-lsR" kind="show" id="TQB-mn-5OM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sQU-N4-woj">
+                                <rect key="frame" x="177" y="778" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Glossary"/>
+                                <connections>
+                                    <segue destination="DYb-zE-Meg" kind="show" id="lba-PM-e3T"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -191,6 +207,14 @@
                                     <segue destination="aZK-Wa-lsR" kind="showDetail" id="Zsv-rp-ag4"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dlv-1Y-S64">
+                                <rect key="frame" x="177" y="778" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Glossary"/>
+                                <connections>
+                                    <segue destination="DYb-zE-Meg" kind="show" id="XDV-57-r3i"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="87N-hw-TgF"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -241,6 +265,14 @@
                                     <segue destination="aZK-Wa-lsR" kind="show" id="LkG-ys-pin"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vvK-by-kCh">
+                                <rect key="frame" x="177" y="778" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Glossary"/>
+                                <connections>
+                                    <segue destination="DYb-zE-Meg" kind="show" id="iea-Ik-mqt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="awm-TG-Ag0"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -288,6 +320,14 @@
                                 <state key="normal" title="&lt;- Map"/>
                                 <connections>
                                     <segue destination="aZK-Wa-lsR" kind="show" id="G1F-IO-OKS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YjL-eK-ZTy">
+                                <rect key="frame" x="194" y="778" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Glossary"/>
+                                <connections>
+                                    <segue destination="DYb-zE-Meg" kind="show" id="IfR-lI-ts2"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -340,6 +380,14 @@
                                     <segue destination="aZK-Wa-lsR" kind="showDetail" id="nel-A6-erS"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHG-AN-GEL">
+                                <rect key="frame" x="177" y="778" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Glossary"/>
+                                <connections>
+                                    <segue destination="DYb-zE-Meg" kind="show" id="l0J-V2-0HV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jcw-Ct-4em"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -378,7 +426,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ee0-Al-jd8">
-                                <rect key="frame" x="107" y="187" width="64" height="68"/>
+                                <rect key="frame" x="114" y="185" width="64" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="map pin"/>
                                 <connections>
@@ -386,7 +434,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sLg-1N-l6w">
-                                <rect key="frame" x="97" y="196" width="64" height="68"/>
+                                <rect key="frame" x="94" y="201" width="64" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="map pin"/>
                                 <connections>
@@ -440,7 +488,7 @@
             <objects>
                 <viewController id="DYb-zE-Meg" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="erW-M1-WMn">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wgL-4P-md0">
@@ -491,6 +539,14 @@
                                 <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5v-ne-7zr">
+                                <rect key="frame" x="20" y="781" width="50" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="&lt;- Map"/>
+                                <connections>
+                                    <segue destination="aZK-Wa-lsR" kind="show" id="5W4-2D-334"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="TLQ-xb-Vsc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -503,7 +559,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="LkG-ys-pin"/>
+        <segue reference="xVP-Lm-Ga3"/>
+        <segue reference="Cpl-YU-aep"/>
+        <segue reference="SQE-KC-xub"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="globe1" width="216" height="204"/>
