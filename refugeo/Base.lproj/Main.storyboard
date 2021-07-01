@@ -181,8 +181,8 @@
                                 <color key="backgroundColor" red="0.38823530080000002" green="0.098039209840000002" blue="0.082352943720000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.38823530080000002" green="0.098039209840000002" blue="0.082352943720000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Country Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cvV-Xk-Bda">
-                                <rect key="frame" x="35" y="44" width="278" height="54"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tuvalu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cvV-Xk-Bda">
+                                <rect key="frame" x="35" y="44" width="124" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor"/>
@@ -195,8 +195,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uZ6-aT-DHn">
-                                <rect key="frame" x="154" y="79" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tuvalu_flag" translatesAutoresizingMaskIntoConstraints="NO" id="uZ6-aT-DHn">
+                                <rect key="frame" x="154" y="88" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zaY-dA-zqu">
@@ -239,15 +239,15 @@
                                 <color key="backgroundColor" red="0.38823530080000002" green="0.098039209840000002" blue="0.082352943720000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.38823530080000002" green="0.098039209840000002" blue="0.082352943720000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Country Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AER-zg-HSG">
-                                <rect key="frame" x="18" y="44" width="278" height="54"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Guatemala" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AER-zg-HSG">
+                                <rect key="frame" x="18" y="44" width="208" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sZY-x7-Iao">
-                                <rect key="frame" x="137" y="79" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="guatemala_flag" translatesAutoresizingMaskIntoConstraints="NO" id="sZY-x7-Iao">
+                                <rect key="frame" x="137" y="98" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="INFORMATION GOES HERE!!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pTp-CH-HbZ">
@@ -457,20 +457,20 @@
                                     <segue destination="k9o-sc-fAj" kind="show" id="1nw-Na-hvp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qs7-2J-Fax">
-                                <rect key="frame" x="280" y="137" width="64" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="map pin"/>
-                                <connections>
-                                    <segue destination="OvG-kw-Zc0" kind="show" id="h9W-rL-vxr"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mby-tA-0jp">
-                                <rect key="frame" x="330" y="213" width="64" height="68"/>
+                                <rect key="frame" x="244" y="418" width="64" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="map pin"/>
                                 <connections>
                                     <segue destination="pi9-JT-sQm" kind="showDetail" id="Euy-As-VCb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qs7-2J-Fax">
+                                <rect key="frame" x="198" y="694" width="64" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="map pin"/>
+                                <connections>
+                                    <segue destination="OvG-kw-Zc0" kind="show" id="h9W-rL-vxr"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -559,20 +559,21 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="xVP-Lm-Ga3"/>
-        <segue reference="Cpl-YU-aep"/>
-        <segue reference="SQE-KC-xub"/>
+        <segue reference="iea-Ik-mqt"/>
+        <segue reference="LkG-ys-pin"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="globe1" width="216" height="204"/>
         <image name="globe2" width="202" height="204"/>
         <image name="globe3" width="210" height="204"/>
+        <image name="guatemala_flag" width="284" height="177"/>
         <image name="map pin" width="500" height="476"/>
         <image name="mexican_flag" width="800" height="458"/>
         <image name="mynanmar_flag" width="220" height="147"/>
         <image name="palestine_flag" width="1280" height="853"/>
         <image name="refuGeo_logo" width="500" height="500"/>
         <image name="syrian_flag" width="800" height="534"/>
+        <image name="tuvalu_flag" width="318" height="159"/>
         <image name="welcome_image" width="820" height="445"/>
         <systemColor name="secondarySystemGroupedBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
