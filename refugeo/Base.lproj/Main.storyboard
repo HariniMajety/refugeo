@@ -328,6 +328,14 @@
                                     <segue destination="aZK-Wa-lsR" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="TQB-mn-5OM"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sQU-N4-woj">
+                                <rect key="frame" x="334" y="834" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Glossary"/>
+                                <connections>
+                                    <segue destination="DYb-zE-Meg" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="lba-PM-e3T"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Myanmar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LJf-Gs-fdD">
                                 <rect key="frame" x="20" y="44" width="181" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -343,14 +351,158 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="CY2-bi-Wt7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sQU-N4-woj">
-                                <rect key="frame" x="334" y="834" width="60" height="30"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bbP-zU-tvj">
+                                <rect key="frame" x="20" y="239" width="374" height="580"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Glossary"/>
-                                <connections>
-                                    <segue destination="DYb-zE-Meg" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="lba-PM-e3T"/>
-                                </connections>
-                            </button>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="amD-Gk-U6h" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="2600"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Located east of the Mediterrranean Sea, South of Turkey, West of Iraq, Northeast of Lebanon, and North of Jordan." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YNd-ly-nfI">
+                                                <rect key="frame" x="8" y="8" width="366" height="84"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LqU-PC-YUQ">
+                                                <rect key="frame" x="8" y="100" width="366" height="99"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Syria has gone through many different kingdoms and empires, and was established in 1946 following the French Colonization of it.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mbt-51-zrg">
+                                                <rect key="frame" x="8" y="207" width="366" height="243"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">In 1963, the Arab Socialist Baath party carried out a coup and took power over the country. In 1966, Hafez al-Assad (of the Baathist party) carried out another coup, and took power from the previous leaders of the political party. He gave official power to Salah Jadid, leader of the military branch of the Baathist party. However, in 1971, he became the official president.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30w-xp-Nnf">
+                                                <rect key="frame" x="8" y="458" width="366" height="324"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Since then, there have been political prisons, where people of all ages, ethnicities, and genders are starved, tortured, and killed. Massacres became more common, and civil unrest grew in the country. In the meantime, the rift between different muslim sects grew, as al-Assad was Alawist Shia, and the majority of the country was Sunni, and Sunni Muslims and Christians were oppressed much more than Alawist Shias (the Alawists were also oppressed though).</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4K-hw-53u">
+                                                <rect key="frame" x="8" y="790" width="366" height="215"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">In 1982, a group of civilians belonging to the Muslim Brotherhood carried out an uprising against the terrorist regime, which resulted in a massacre known as the Hama Massacre. Massacres increased in size and number all around Syria, and people were, once again, forced to stay silent for their own safety. 
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WlG-Fq-Ce6">
+                                                <rect key="frame" x="8" y="998" width="366" height="160"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Hafez al-Assad died in the year 2000, and his son Bashar al-Assad left university in the UK to become the next president. He promised change to the country, however no such change occurred. The massacres and political prisons continued.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Afp-zC-0SF">
+                                                <rect key="frame" x="8" y="1166" width="366" height="451"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">In 2011, a school boy in Daraa inspired by the Arab Spring painted on his school wall: “Your turn is next, Doctor” (referring to his hope that al-Assad would lose his dictatorial power over the country. He and some of his friends were arrested and tortured, which made the small, tight-knit community protest for their release in front of the local prison. After about 2 months, the boys were released, but their state enraged the village and protests grew. In a matter of days, pictures of the boys had spread all across Syria, and protests erupted in all corners. Protestors held up flowers and olive branches to symbolize peace during the protests, but that didn’t stop the regime from trying to shut them down as soon as possible.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ze-Se-5jZ">
+                                                <rect key="frame" x="8" y="1625" width="366" height="100"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">The regime took to violence to solve the new issue; they employed tanks and troops into cities. Protestors were sniped, shot, and run over with tanks. </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tLm-Q4-2rL">
+                                                <rect key="frame" x="8" y="1733" width="366" height="174"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">In response to the regime’s violence, soldiers began defecting from the official military and forming militias with other defectors. These militias came to call themselves the Free Syrian Army, and have since organized an official council called the Syrian National Council. </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6KT-TQ-4c8">
+                                                <rect key="frame" x="8" y="1915" width="366" height="288"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">As a result of the regime losing some of its power, but the rebels (FSA) not having full power, there was a power vacuum which terrorist groups and Kurdish nationalists took advantage of. Terrorists like ISIS, Al-Qaeda, and Hayat Tahrir Al-Sham (HTS) took over some areas, and a game of tug of war took over the country. The Kurds wanted to take control of the north (areas with high Kurdish populations) and form an independent state called Kurdistan.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Resources:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gal-Rf-xCl">
+                                                <rect key="frame" x="16" y="2211" width="358" height="41"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Psh-U7-o87">
+                                                <rect key="frame" x="8" y="2260" width="206" height="94"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.23921570180000001" green="0.35686278339999999" blue="0.40000003579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" title="Syria Needs You">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="resourceOne:" destination="9AK-Mv-uqM" eventType="touchUpInside" id="f5O-tC-l5Z"/>
+                                                    <action selector="resourceOne:" destination="OvG-kw-Zc0" eventType="touchUpInside" id="llj-rm-jne"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eaC-Kj-pTc">
+                                                <rect key="frame" x="8" y="2362" width="206" height="94"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.23921570180000001" green="0.35686278339999999" blue="0.40000003579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" title="Donate">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="resourceOne:" destination="OvG-kw-Zc0" eventType="touchUpInside" id="mU5-fb-uDb"/>
+                                                    <action selector="resourceTwo:" destination="OvG-kw-Zc0" eventType="touchUpInside" id="CRT-4j-4lc"/>
+                                                    <action selector="resourceTwo:" destination="9AK-Mv-uqM" eventType="touchUpInside" id="QoK-pE-GII"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlg-2N-Hae">
+                                                <rect key="frame" x="8" y="2464" width="206" height="94"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.23921570180000001" green="0.35686278339999999" blue="0.40000003579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <state key="normal" title="Live Updates from Syria">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="resourceOne:" destination="OvG-kw-Zc0" eventType="touchUpInside" id="gnG-va-eRZ"/>
+                                                    <action selector="resourceThree:" destination="9AK-Mv-uqM" eventType="touchUpInside" id="TO4-db-T8A"/>
+                                                    <action selector="resourceTwo:" destination="OvG-kw-Zc0" eventType="touchUpInside" id="x50-p0-9gw"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2600" id="qDa-1n-AWH"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="amD-Gk-U6h" firstAttribute="top" secondItem="unw-O8-BQ3" secondAttribute="top" id="9XR-NP-2G6"/>
+                                    <constraint firstItem="amD-Gk-U6h" firstAttribute="leading" secondItem="unw-O8-BQ3" secondAttribute="leading" id="EJD-Vi-uSx"/>
+                                    <constraint firstItem="amD-Gk-U6h" firstAttribute="bottom" secondItem="unw-O8-BQ3" secondAttribute="bottom" id="F6B-cM-LGG"/>
+                                    <constraint firstItem="amD-Gk-U6h" firstAttribute="trailing" secondItem="unw-O8-BQ3" secondAttribute="trailing" id="YvW-0v-JFA"/>
+                                    <constraint firstItem="amD-Gk-U6h" firstAttribute="width" secondItem="YE4-6K-bif" secondAttribute="width" id="zlc-Hf-3Jl"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="unw-O8-BQ3"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="YE4-6K-bif"/>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tE7-CJ-blD"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1213,7 +1365,7 @@
             <objects>
                 <viewController id="aZK-Wa-lsR" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qgl-Qw-7M5">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="globe1" translatesAutoresizingMaskIntoConstraints="NO" id="6m3-BV-Buj">
@@ -1465,9 +1617,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="bgH-Et-j4a"/>
-        <segue reference="G6P-9a-fNd"/>
-        <segue reference="qVf-WV-h6Z"/>
+        <segue reference="lba-PM-e3T"/>
+        <segue reference="TQB-mn-5OM"/>
+        <segue reference="CY2-bi-Wt7"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="globe1" width="216" height="204"/>
