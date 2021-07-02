@@ -12,6 +12,7 @@
 		622ADD00268E887100EED14A /* SyriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622ADCFF268E887100EED14A /* SyriaViewController.swift */; };
 		622ADD02268E894A00EED14A /* PalestineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622ADD01268E894A00EED14A /* PalestineViewController.swift */; };
 		622ADD04268E89ED00EED14A /* MexicoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622ADD03268E89ED00EED14A /* MexicoViewController.swift */; };
+		622ADD06268ECB1B00EED14A /* MyanmarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622ADD05268ECB1B00EED14A /* MyanmarViewController.swift */; };
 		624846EE268BACCB009A64C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624846ED268BACCB009A64C3 /* AppDelegate.swift */; };
 		624846F0268BACCB009A64C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624846EF268BACCB009A64C3 /* SceneDelegate.swift */; };
 		624846F2268BACCB009A64C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624846F1268BACCB009A64C3 /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 		622ADCFF268E887100EED14A /* SyriaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyriaViewController.swift; sourceTree = "<group>"; };
 		622ADD01268E894A00EED14A /* PalestineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalestineViewController.swift; sourceTree = "<group>"; };
 		622ADD03268E89ED00EED14A /* MexicoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MexicoViewController.swift; sourceTree = "<group>"; };
+		622ADD05268ECB1B00EED14A /* MyanmarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyanmarViewController.swift; sourceTree = "<group>"; };
 		624846EA268BACCB009A64C3 /* refugeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = refugeo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		624846ED268BACCB009A64C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		624846EF268BACCB009A64C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				622ADCFF268E887100EED14A /* SyriaViewController.swift */,
 				622ADD01268E894A00EED14A /* PalestineViewController.swift */,
 				622ADD03268E89ED00EED14A /* MexicoViewController.swift */,
+				622ADD05268ECB1B00EED14A /* MyanmarViewController.swift */,
 			);
 			path = refugeo;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				622ADCFC268E67A600EED14A /* TuvaluViewController.swift in Sources */,
 				624846F8268BACCB009A64C3 /* refugeo.xcdatamodeld in Sources */,
 				622ADD02268E894A00EED14A /* PalestineViewController.swift in Sources */,
+				622ADD06268ECB1B00EED14A /* MyanmarViewController.swift in Sources */,
 				624846EE268BACCB009A64C3 /* AppDelegate.swift in Sources */,
 				622ADCFE268E87DF00EED14A /* GuatemalaViewController.swift in Sources */,
 				624846F0268BACCB009A64C3 /* SceneDelegate.swift in Sources */,
