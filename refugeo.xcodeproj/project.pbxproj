@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		622ADCFC268E67A600EED14A /* TuvaluViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622ADCFB268E67A600EED14A /* TuvaluViewController.swift */; };
+		622ADCFE268E87DF00EED14A /* GuatemalaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622ADCFD268E87DF00EED14A /* GuatemalaViewController.swift */; };
+		622ADD00268E887100EED14A /* SyriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622ADCFF268E887100EED14A /* SyriaViewController.swift */; };
+		622ADD02268E894A00EED14A /* PalestineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622ADD01268E894A00EED14A /* PalestineViewController.swift */; };
+		622ADD04268E89ED00EED14A /* MexicoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622ADD03268E89ED00EED14A /* MexicoViewController.swift */; };
 		624846EE268BACCB009A64C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624846ED268BACCB009A64C3 /* AppDelegate.swift */; };
 		624846F0268BACCB009A64C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624846EF268BACCB009A64C3 /* SceneDelegate.swift */; };
 		624846F2268BACCB009A64C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624846F1268BACCB009A64C3 /* ViewController.swift */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		622ADCFB268E67A600EED14A /* TuvaluViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuvaluViewController.swift; sourceTree = "<group>"; };
+		622ADCFD268E87DF00EED14A /* GuatemalaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuatemalaViewController.swift; sourceTree = "<group>"; };
+		622ADCFF268E887100EED14A /* SyriaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyriaViewController.swift; sourceTree = "<group>"; };
+		622ADD01268E894A00EED14A /* PalestineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalestineViewController.swift; sourceTree = "<group>"; };
+		622ADD03268E89ED00EED14A /* MexicoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MexicoViewController.swift; sourceTree = "<group>"; };
 		624846EA268BACCB009A64C3 /* refugeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = refugeo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		624846ED268BACCB009A64C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		624846EF268BACCB009A64C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +76,11 @@
 				624846FB268BACCC009A64C3 /* LaunchScreen.storyboard */,
 				624846FE268BACCC009A64C3 /* Info.plist */,
 				624846F6268BACCB009A64C3 /* refugeo.xcdatamodeld */,
+				622ADCFB268E67A600EED14A /* TuvaluViewController.swift */,
+				622ADCFD268E87DF00EED14A /* GuatemalaViewController.swift */,
+				622ADCFF268E887100EED14A /* SyriaViewController.swift */,
+				622ADD01268E894A00EED14A /* PalestineViewController.swift */,
+				622ADD03268E89ED00EED14A /* MexicoViewController.swift */,
 			);
 			path = refugeo;
 			sourceTree = "<group>";
@@ -141,8 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				624846F2268BACCB009A64C3 /* ViewController.swift in Sources */,
+				622ADD00268E887100EED14A /* SyriaViewController.swift in Sources */,
+				622ADD04268E89ED00EED14A /* MexicoViewController.swift in Sources */,
+				622ADCFC268E67A600EED14A /* TuvaluViewController.swift in Sources */,
 				624846F8268BACCB009A64C3 /* refugeo.xcdatamodeld in Sources */,
+				622ADD02268E894A00EED14A /* PalestineViewController.swift in Sources */,
 				624846EE268BACCB009A64C3 /* AppDelegate.swift in Sources */,
+				622ADCFE268E87DF00EED14A /* GuatemalaViewController.swift in Sources */,
 				624846F0268BACCB009A64C3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
